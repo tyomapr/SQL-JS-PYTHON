@@ -8,3 +8,5 @@ SELECT * FROM crosstab(
    GROUP BY p.name, d.detail
    ORDER BY p.name'
 ) AS result (name TEXT, bad BIGINT, good BIGINT, ok BIGINT);
+
+/*https://www.codewars.com/kata/58126aa90ea99769e7000119 - the link to the task */

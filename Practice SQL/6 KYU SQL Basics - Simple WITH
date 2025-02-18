@@ -11,3 +11,5 @@ select special_sales.id, departments.name
 from special_sales
 join departments
 on special_sales.id = departments.id
+
+/* https://www.codewars.com/kata/5811501c2d35672d4f000146 */

@@ -6,3 +6,5 @@ select *, 'US' as location
 from ussales
 where price > 50
 order by location desc, id
+
+/*https://www.codewars.com/kata/58112f8004adbbdb500004fe*/
